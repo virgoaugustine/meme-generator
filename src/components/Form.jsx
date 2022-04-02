@@ -14,7 +14,6 @@ function Form() {
         
     }, [])
     
-    console.log(allMemes)
     const generateMeme = () => {
         const memes = allMemes;
         let keys = Object.keys(memes)
